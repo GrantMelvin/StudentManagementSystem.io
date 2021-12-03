@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <div class="intro">
+        <head>
+            <title>
+                Student System
+            </title>
+        </head>
+        
+        <link href="Projfin.css" type="text/css" rel="Stylesheet">
+
+    </div>
+
+    <div class="main">
+
+        <body>
+            <!--Header of page-->
+            <div class="header" ID="top">
+
+                <p>Student Management System</p>
+
+            </div>
+
+            <!--Student Infomation System-->
+            <div class="SEI">
+
+                <fieldset ID="SEI">
+
+                    <legend>Student Entry Information</legend>
+
+                        <p class="entries">Name:</p>
+                            <input type="text" name="name" placeholder="Last,First"/>
+
+                        <p class="entries">GPA:</p>
+                            <input type="text" name="grade" placeholder="3.3"/>
+
+                        <p class="entries">Currently Enrolled Classes:</p>
+
+                            <form action="file:///C:/Users/grant/Desktop/Web-Dev/ProjFin.html">
+                            <input type="checkbox" name="classes" value="math" /> Math <br/>
+                            <input type="checkbox" name="classes" value="eng" /> English <br/>
+                            <input type="checkbox" name="classes" value="sci" /> Science <br/>
+                            <input type="checkbox" name="classes" value="hist" /> History <br/>
+                            <input type="checkbox" name="classes" value="art" /> Art <br/>
+                            <input type="checkbox" name="classes" value="thea" /> Theatre <br/>
+                            <br/>
+                            <input type="submit" name="submit" value="Submit" class="submit">   
+                            </form>
+                </fieldset> 
+            </div>
+
+            <!--Student Search-->
+            <div class="sSearch">
+
+                <fieldset ID="sSearch">
+
+                    <legend>Student Search</legend>
+
+                        <p class="entries">Student Name:</p>
+
+                        <form action="file:///C:/Users/grant/Desktop/Web-Dev/ProjFin.html" method="GET" class="Student Search">
+                            <input type="search" name="search" placeholder="Last,First"/>
+                            <input type="submit" value="Search" class="submit"/>  
+                        </form> 
+
+                        <p class="entries">Full Student Roster:</p>
+
+                        <form action="file:///C:/Users/grant/Desktop/Web-Dev/Roster.html" method="GET" class="Student Search">
+                            <input type="submit" value="View" class="submit"/>  
+                        </form>
+
+                </fieldset>
+            </div>
+
+            <!--Student Removal-->
+            <div class="sRemoval">
+
+                <fieldset ID="sRemoval">
+
+                    <legend>Student Removal</legend>
+
+                        <p class="entries">Student Name: </p>
+
+                        <form action="file:///C:/Users/grant/Desktop/Web-Dev/ProjFin.html" method="POST" class="Student Search">
+                            <input type="search" name="remove" placeholder="Last,First"/>
+                            <input type="submit" value="Remove" class="submit"/>  
+                        </form>
+                </fieldset>
+            </div>
+
+            <!--Class Search-->
+            <div class=cSearch>
+
+                <fieldset ID="cSearch">
+
+                    <legend>Class Search</legend>
+
+                        <p class="entries">Class Name:</p>
+
+                        <form action="file:///C:/Users/grant/Desktop/Web-Dev/ProjFin.html" method="GET" class="classSearch">
+                            <input type="checkbox" name="classes" value="math" /> Math 
+                            <input type="checkbox" name="classes" value="english" /> English 
+                            <input type="checkbox" name="classes" value="science" /> Science <br/>
+                            <input type="checkbox" name="classes" value="history" /> History 
+                            <input type="checkbox" name="classes" value="art" /> Art 
+                            <input type="checkbox" name="classes" value="theatre" /> Theatre 
+                            <br/>
+                            <br/>
+
+                            <input type="submit" name="submit" value="Submit" class="submit">
+                        </form> 
+                </fieldset>
+            </div>
+
+            <!--Closer-->
+            <div class="closer">
+
+                <p class=link><a href="https://github.com/GrantMelvin" target="_blank">Creator Github</a></p>
+
+                <p class=link><a href="https://docs.google.com/document/d/1sBXizzgDuZPcBbRdk6eqY-ZefkvoLpE5WDEL1jqHV0o/edit" target="_blank">Creator CV</a></p>
+
+                <p class=link><a href="mailto:Grantmelvin4@gmail.com" target="_blank">Creator Email</a></p>
+
+                <p class=link><a href="file:///C:/Users/grant/Desktop/Web-Dev/ProjFin.html">About this Webpage</a></p>
+
+            </div>
+        </body>
+    </div>
+</html>
