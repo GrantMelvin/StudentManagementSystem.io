@@ -1,0 +1,194 @@
+h1, h2, h3, h4, h5, h6
+{
+    color:salmon ;
+}
+
+li
+{
+    display: inline ;
+    margin-right: 10px ;
+}
+
+fieldset /* both field sets*/
+{
+    width: 350px ;
+    border-radius: 5px ;
+    border-width: 3px ;
+    border-color: rgb(161, 37, 6) ;
+    border-style: solid;
+    padding: 10px ;
+    margin: 10px auto 10px auto ;  
+    float: left ;
+}
+
+#SandD /* Div */
+{
+    color:rgb(161, 37, 6) ;
+    padding: 5px ;
+    margin: 5px ;
+}
+
+#SandDbox /* Div */
+{
+    position: absolute ; 
+    right: 293px ;
+    width: 400px ;
+    top: 120px ;
+}
+
+#SearchorDelete, #classSearchlegend, #SEI, #removalLegend, #statisticsLegend /*Legend*/
+{
+    color:rgb(161, 37, 6) ;
+    font-weight: bold ;
+    padding: 5px 10px ;
+    border: 4px solid #dcdcdc ;
+    border-color: rgb(161, 37, 6) ;
+    border-radius: 10px ;
+    text-align: center ; 
+}
+
+body
+{
+    font-family: "Courier New", Courier, Monospace ;
+    color: #000000e8 ;
+    background-color:blanchedalmond ;
+    word-spacing: .2em;
+}
+
+a
+{
+    color: rgb(0, 60, 255) ;
+    text-decoration: underline ;
+}
+
+.notes
+{
+    overflow:scroll ;
+}
+
+input.submit
+{
+    color: #444444 ;
+    text-shadow: 0px 1px 1px #ffffff ;
+    border-bottom: 2px solid #b2b2b2 ;
+    background-color: #e4cab9;
+}
+
+input.submit:hover
+{
+    color: #333333 ;
+    border: 1px solid #a4a4a4 ;
+    border-top: 2px solid #b2b2b2 ;
+    background-color: #e4cab9 ;
+}
+
+table
+{
+    width: 500px ;
+    border-spacing: collapse ;
+    float: right ; 
+    position: absolute ; 
+    right: 30px ; 
+    top: 60px ;
+    overflow: scroll ;
+}
+
+th, td
+{
+    padding: 7px 10px 10px 10px ;
+    empty-cells: hide ;
+    overflow: scroll ;
+}
+
+th
+{
+    text-transform: uppercase ;
+    letter-spacing: 0.1em ;
+    font-size: 90% ;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left ;
+    overflow: scroll ;
+}
+
+tr.even
+{
+    background-color: rgb(161, 37, 6) ;
+}
+
+tr:hover 
+{
+    background-color: #c3e6e5;
+}
+
+.info
+{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black ;
+}
+
+.link1
+{
+    position: absolute ;
+    top: 670px ;
+    margin: 10px ;
+    float: left ; 
+}
+
+.link2
+{
+    position: absolute ;
+    top: 670px ;
+    margin: 10px ;
+    left: 200px ;
+}
+
+.link3 
+{
+    position: absolute ;
+    top: 670px ;
+    margin: 10px ;
+    left: 345px ;
+}
+
+.link4
+{
+    position: absolute ;
+    top: 670px ;
+    margin: 10px ;
+    right: 0px ;
+}
+
+#classSearchfield
+{
+    margin: 10px ;
+    width: 400px ;
+    position: absolute ;
+    bottom: 15px ;
+    right: 575px ;
+}
+
+tbody
+{
+    height: 10px ;
+    overflow: scroll;
+}
+
+#removalField
+{
+    float: left ;
+    margin: 10px ;
+    position: absolute ; 
+    top: 52px ;
+    right: 575px ;
+    width: 400px ;
+}
+
+#statisticsField
+{
+    width: 480px ;
+    position: absolute ;
+    left: 895px ;
+    bottom: 194px ;
+}
