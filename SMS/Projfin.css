@@ -112,7 +112,7 @@ input.submit
     justify-content: center ;
 }
 
-input.submit:not(#search)
+input.submit:not(#search,#search)
 {
     margin:0 50%;
     position:relative;

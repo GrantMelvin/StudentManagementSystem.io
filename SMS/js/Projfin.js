@@ -73,7 +73,7 @@ const addStudent = (stu) => {
     }
 }   
 
-function deleteStudent(val){
+function deleteStudent(val){ ;
     var s = val.parentNode.parentNode ;
     s.parentNode.removeChild(s) ;
     n-- ;
@@ -116,3 +116,64 @@ function addRow(){
     }
 }
 
+function searchName()
+{
+    var name = document.getElementById("nSearch").value ;
+
+    var output = false;
+
+    for(var i = 0 ; i < list2.length ; i++)
+    {
+        if(name == list2[i])
+        {
+            outputNameStats() ;
+
+            output = true ;
+        }
+    }
+
+    if(output == false)
+    {
+        alert("Student Not Found!") ;
+    }
+
+    document.querySelector('#nSearch').reset() ; // Clears form post-submission
+
+}
+
+function searchID()
+{
+    var ID = document.getElementById("IDSearch").value ;
+
+    var output = false;
+
+    for(var i = 0 ; i < list1.length ; i++)
+    {
+        if(ID == list1[i])
+        {
+            outputNameStats() ;
+
+            output = true ;
+        }
+    }
+
+    if(output == false)
+    {
+        alert("Student Not Found!") ;
+    }
+
+    document.querySelector('#nSearch').reset() ; // Clears form post-submission
+}
+
+function searchClass()
+{
+    alert("yes") ;
+}
+
+function outputNameStats()
+{
+    var stats = document.querySelector(".sStats") ;
+
+    stats.style.visibility="visible" ;
+
+}

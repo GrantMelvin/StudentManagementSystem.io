@@ -54,7 +54,7 @@
                             <input type="checkbox" id="artist" name="arist" /> Art <br/>
                             <input type="checkbox" id="theatre" name="theatre" /> Theatre <br/>
 
-                            <input type="submit" id="submit" name="submit" value="Submit" class="submit" onclick="addRow()">  
+                            <input type="button" id="submit" name="submit" value="Submit" class="submit" onclick="addRow()">  
 
                         </form>
                 </fieldset> 
@@ -71,17 +71,17 @@
 
                         <div id="error"></div>
 
-                        <form action="Index.html" method="GET" >
-                        <input type="search" name="search" placeholder="EX: Melvin,Grant"/>
-                        <input type="submit" value="Search" class="submit" id="search"/>
+                        <form action="Index.html" method="GET" id="nSearch">
+                        <input type="search" name="search" placeholder="EX: Melvin,Grant" id="nSearch"/>
+                        <input type="button" value="Submit" class="submit" id="search" onclick="searchName()"/>
 
                         <p class="entries">Student ID:</p>
 
                         <div id="error"></div>
 
-                        <form action="Index.html" method="GET" >
-                        <input type="search" name="search" placeholder="EX: 3"/>
-                        <input type="submit" value="Search" class="submit" id="search"/>
+                        <form action="Index.html" method="GET" id="IDSearch">
+                        <input type="search" name="search" placeholder="EX: 3" id="IDSearch"/>
+                        <input type="button" value="Submit" class="submit" id="search" onclick="searchID()"/>
 
 
                         <p class="entries">Class name:</p>
@@ -96,7 +96,7 @@
                         <input type="checkbox" name="classes" value="theatre" /> Theatre 
                         <br/>
                         <br/>
-                        <input type="submit" id="submit" name="submit" value="Search" class="submit">
+                        <input type="button" id="submit" name="submit" value="Submit" class="submit" onclick="searchClass()">
                         </form> 
                 </fieldset>
             </div>
@@ -128,7 +128,7 @@
 
                 <p class=link><a href="https://github.com/GrantMelvin" target="_blank">Creator Github</a></p>
 
-                <p class=link><a href="https://docs.google.com/document/d/1sBXizzgDuZPcBbRdk6eqY-ZefkvoLpE5WDEL1jqHV0o/edit" target="_blank">Creator CV</a></p>
+                <p class=link><a href="https://docs.google.com/document/d/e/2PACX-1vTlUXN7OOe3MZyc7F8tr-iZKJ8wMieyaMuga5o2gUZw52o2YL5InGMfW2p3QyuoOaTFgqhSfHKTXaOx/pub" target="_blank">Creator CV</a></p>
 
                 <p class=link><a href="mailto:Grantmelvin4@gmail.com" target="_blank">Creator Email</a></p>
 
