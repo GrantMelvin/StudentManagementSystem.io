@@ -361,8 +361,6 @@ function outputNameStats()
 
     var section1 = document.getElementById('searchResults1') ; 
     var section2 = document.getElementById('searchResults2') ; 
-    var section2b = document.getElementById('searchResults2b') ;
-    var section2c = document.getElementById('searchResults2c') ;
     var section3 = document.getElementById('searchResults3') ; 
     var section4 = document.getElementById('searchResults4') ; 
 
@@ -455,8 +453,6 @@ function outputNameStats()
     section1.innerHTML = ('Name: ' + realStudent.Name) ;
 
     section2.innerHTML = ('ID: ' + realStudent.ID) ;
-    section2b.innerHTML = ('') ;
-    section2c.innerHTML = ('') ;
 
     section3.innerHTML = ('GPA: ' + realStudent.GPA) ;
 
@@ -472,8 +468,6 @@ function outputIDStats()
 
     var section1 = document.getElementById('searchResults1') ; 
     var section2 = document.getElementById('searchResults2') ; 
-    var section2b = document.getElementById('searchResults2b') ;
-    var section2c = document.getElementById('searchResults2c') ;
     var section3 = document.getElementById('searchResults3') ; 
     var section4 = document.getElementById('searchResults4') ; 
 
@@ -571,8 +565,6 @@ function outputIDStats()
     section1.innerHTML = ('Name: ' + realStudent.Name) ;
 
     section2.innerHTML = ('ID: ' + realStudent.ID) ;
-    section2b.innerHTML = ('') ;
-    section2c.innerHTML = ('') ;
 
     section3.innerHTML = ('GPA: ' + realStudent.GPA) ;
 
@@ -591,9 +583,6 @@ function outputClassStats()
     var section3 = document.getElementById('searchResults3') ; 
     var section4 = document.getElementById('searchResults4') ; 
 
-    var section2b = document.getElementById('searchResults2b') ;
-    var section2c = document.getElementById('searchResults2c') ;
-
     var studentsNames = [] ;
     var outputNames = [] ;
 
@@ -604,7 +593,7 @@ function outputClassStats()
     var counter = 0 ;
 
     var RCLength = realClasses.length ;
-    
+
 
     for(var i = 0 ; i < realClasses.length ; i++)
     {
@@ -685,13 +674,11 @@ function outputClassStats()
     section1.innerHTML = ('Students: ' + outputNames) ;
 
     section2.innerHTML = ('High GPA: ' + highGPA) ;
-    section2b.innerHTML = ('Mean GPA: ' + meanGPA) ;
-    section2c.innerHTML = ('Low GPA: ' + lowGPA) ;
 
-    /*section3.innerHTML = ('High GPA: ' + highGPA + '\n' + 'Median GPA: ' + medianGPA + '\n' + 'Low GPA: ' + lowGPA) ;
+    section3.innerHTML = (('Mean GPA: ' + meanGPA)) ;
 
-    section4.innerHTML = ('Enrolled Classes: ' + classSearch) ;
-    */
+    section4.innerHTML = ('Low GPA: ' + lowGPA) ;
+    
 
     realClasses = [] ;
     
