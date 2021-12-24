@@ -34,17 +34,14 @@
 
                         <form action="Index.html" id="SEIForm">
 
-                            <div id="error"></div>
 
-                            <p class="entries">Name:</p>
-                            <input type="text" id="SEIname" name="Sname" placeholder="EX: Melvin,Grant" required/>
+                            <p class="entries">Student Name:</p>
+                            <input type="text" id="SEIname" name="Sname" placeholder="Enter Student Name" required/>
                             
-                            <div class="sep"></div>
 
                             <p class="entries">GPA:</p>
-                            <input type="text" id="SEIgpa" name="Sgrade" placeholder="EX: 4.0" required/>
+                            <input type="text" id="SEIgpa" name="Sgrade" placeholder="Enter Student GPA" required/>
 
-                            <div class="sep"></div>
 
                             <p class="entries">Currently Enrolled Classes:</p>
                             <input type="checkbox" id="mathematics" name="math" /> Math <br/>
@@ -69,31 +66,26 @@
 
                         <p class="entries">Student Name:</p>
 
-                        <div id="error"></div>
-
-                        <form action="Index.html" method="GET" id="nSearch">
-                        <input type="search" name="search" placeholder="EX: Melvin,Grant" id="nSearch"/>
+                        <form action="Index.html" method="GET" id="Search">
+                        <input type="search" name="search" placeholder="Enter Student Name" id="nSearch"/>
                         <input type="button" value="Submit" class="submit" id="search" onclick="searchName()"/>
 
                         <p class="entries">Student ID:</p>
 
-                        <div id="error"></div>
-
-                        <form action="Index.html" method="GET" id="IDSearch">
-                        <input type="search" name="search" placeholder="EX: 3" id="IDSearch"/>
+                        <form action="Index.html" method="GET" id="Search">
+                        <input type="search" name="search" placeholder="Enter Student ID" id="IDSearch"/>
                         <input type="button" value="Submit" class="submit" id="search" onclick="searchID()"/>
 
 
                         <p class="entries">Class name:</p>
-
-                        <div id="error"></div>
-
-                        <input type="checkbox" name="classes" value="math" /> Math 
-                        <input type="checkbox" name="classes" value="english" /> English 
-                        <input type="checkbox" name="classes" value="science" /> Science <br/>
-                        <input type="checkbox" name="classes" value="history" /> History 
-                        <input type="checkbox" name="classes" value="art" /> Art 
-                        <input type="checkbox" name="classes" value="theatre" /> Theatre 
+                        
+                        <form action="Index.html" method="GET" class="classSearch">
+                        <input type="checkbox" name="math" class="classSearch" id="math" /> Math 
+                        <input type="checkbox" name="english" class="classSearch" id="engl" /> English 
+                        <input type="checkbox" name="science" class="classSearch" id="sci" /> Science <br/>
+                        <input type="checkbox" name="history" class="classSearch" id="hist" /> History 
+                        <input type="checkbox" name="arist" class="classSearch" id="art" /> Art 
+                        <input type="checkbox" name="theatre" class="classSearch" id="thea" /> Theatre 
                         <br/>
                         <br/>
                         <input type="button" id="submit" name="submit" value="Submit" class="submit" onclick="searchClass()">
@@ -104,7 +96,32 @@
             <!--Statistics System-->
             <div class="sStats">
 
-                <p id="searchResults"></p>
+                <fieldset id="sStats">
+
+                    <legend>Statistics</legend>
+
+                    <br>
+
+                    <div id="searchResults1" class="entries"></div>
+
+                    <br>
+                    <br>
+
+                    <div id="searchResults2" class="entries"></div>
+                    <div id="searchResults2b" class="entries"></div>
+                    <div id="searchResults2c" class="entries"></div>
+
+                    <br>
+                    <br>
+
+                    <div id="searchResults3" class="entries"></div>
+
+                    <br>
+                    <br>
+
+                    <div id="searchResults4" class="entries"></div>
+
+                </fieldset>
 
             </div>
 

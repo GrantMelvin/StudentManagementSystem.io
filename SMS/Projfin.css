@@ -19,14 +19,13 @@
 }
 
 
-#SEI, #sSearch, #cSearch, #sSearch, #sRemoval, #searchResults
+#SEI, #sSearch, #cSearch, #sSearch, #sRemoval, #searchResults, #sStats
 {
     border-radius: 5px ;
     border-width: 3px ;
     border-color: rgb(161, 37, 6) ;
     border-style: solid;
     padding: 10px ;
-    margin: 10 ;
 }
 
 .sStats
