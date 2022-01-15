@@ -128,7 +128,14 @@ input.submit:hover
 
 .closer
 {
-    width: 350px ;
+    color: #e7e1e1 ;
+    font-size: 18px ;
+    padding: 60px 80% 20px 0 ;
+}
+
+.closer a
+{
+    padding: 3px ;
 }
 
 #back
