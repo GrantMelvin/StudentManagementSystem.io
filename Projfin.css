@@ -85,11 +85,6 @@ th
     text-align: center ;
 }
 
-tr.even
-{
-    background-color: rgb(202, 62, 27) ;
-}
-
 tr:hover 
 {
     background-color: #c3e6e5;
