@@ -59,7 +59,7 @@ body
 
 table
 {
-    width: 1400px ;
+    width: 100% ;
     height: 200px ;
     border-spacing: collapse ;
     margin: 10px ; 
@@ -115,7 +115,6 @@ input.submit:not(#search,#search, #back)
 {
     margin:0 50%;
     position:relative;
-    left:-50px;
 }
 
 input.submit:hover
