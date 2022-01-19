@@ -12,7 +12,7 @@
 
 .SEI, .sSearch, .cSearch, .sStats, .sRemoval
 {
-    padding: 5px ;
+    padding: 50px ;
     margin: 10px ;  
     float: left ;
     width: 30% ;
@@ -25,7 +25,7 @@
     border-width: 3px ;
     border-color: rgb(161, 37, 6) ;
     border-style: solid;
-    padding: 500px ;
+    padding: 10px ;
 }
 
 .sStats
