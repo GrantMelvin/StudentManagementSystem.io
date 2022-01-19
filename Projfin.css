@@ -59,7 +59,7 @@ body
 
 table
 {
-    width: 100% ;
+    width: 1050px ;
     height: 200px ;
     border-spacing: collapse ;
     margin: 10px ; 
@@ -69,7 +69,7 @@ table
 
 th, td
 {
-    width: 1400px ;
+    width: 1050px ;
     padding: 7px 10px 10px 10px ;
     empty-cells: hide ;
     text-align: center ;
