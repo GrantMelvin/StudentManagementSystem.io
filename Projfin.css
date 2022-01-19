@@ -113,7 +113,6 @@ input.submit
 
 input.submit:not(#search,#search, #back)
 {
-    margin:0 50%;
     position:relative;
 }
 
