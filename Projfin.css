@@ -5,6 +5,11 @@
     border-bottom: 2px solid black ;
 }
 
+body
+{
+    position: absolute ;
+}
+
 .SEI, .sSearch, .cSearch, .sStats, .sRemoval
 {
     padding: 5px ;
