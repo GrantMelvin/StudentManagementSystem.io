@@ -5,7 +5,7 @@
     border-bottom: 2px solid black ;
 }
 
-body
+.main
 {
     position: absolute ;
 }
@@ -15,7 +15,7 @@ body
     padding: 5px ;
     margin: 10px ;  
     float: left ;
-    width: 450px ;
+    width: 30% ;
 }
 
 
@@ -59,7 +59,7 @@ body
 
 table
 {
-    width: 1050px ;
+    width: 100% ;
     height: 200px ;
     border-spacing: collapse ;
     margin: 10px ; 
@@ -69,7 +69,7 @@ table
 
 th, td
 {
-    width: 1050px ;
+    width: 1400px ;
     padding: 7px 10px 10px 10px ;
     empty-cells: hide ;
     text-align: center ;
@@ -85,18 +85,23 @@ th
     text-align: center ;
 }
 
+tr.even
+{
+    background-color: rgb(202, 62, 27) ;
+}
+
 tr:hover 
 {
     background-color: #c3e6e5;
 }
 
-a:not(#back)
+a
 {
     color: rgb(0, 60, 255) ;
     text-decoration: underline ;
 }
 
-input.submit 
+input.submit
 {
     color: #444444 ;
     text-shadow: 0px 1px 1px #ffffff ;
@@ -109,6 +114,8 @@ input.submit
 input.submit:not(#search,#search, #back)
 {
     margin:0 50%;
+    position:relative;
+    left:-50px;
 }
 
 input.submit:hover
@@ -123,10 +130,16 @@ input.submit:hover
 {
     color: #e7e1e1 ;
     font-size: 18px ;
-    padding: 3% 80% 20px 0 ;
+    padding: 3% 80% 20px 10px ;
 }
 
 .closer a
 {
     padding: 3px ;
+}
+
+#back
+{
+    position: relative ;
+    float: left ;
 }
