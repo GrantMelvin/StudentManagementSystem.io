@@ -95,13 +95,23 @@ tr:hover
     background-color: #c3e6e5;
 }
 
-a
+a:not(#back)
 {
     color: rgb(0, 60, 255) ;
     text-decoration: underline ;
 }
 
-input.submit
+input.submit 
+{
+    color: #444444 ;
+    text-shadow: 0px 1px 1px #ffffff ;
+    border-bottom: 2px solid #b2b2b2 ;
+    background-color: #e4cab9;
+    text-align: center ;
+    justify-content: center ;
+}
+
+#back
 {
     color: #444444 ;
     text-shadow: 0px 1px 1px #ffffff ;
