@@ -62,7 +62,7 @@ table
     width: 100% ;
     height: 200px ;
     border-spacing: collapse ;
-    margin: 10px ; 
+    margin: 10px 10px ; 
     overflow-y: scroll ;
     display: block ;
 }
