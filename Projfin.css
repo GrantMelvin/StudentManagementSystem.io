@@ -111,18 +111,6 @@ input.submit
     justify-content: center ;
 }
 
-#back
-{
-    color: #444444 ;
-    text-shadow: 0px 1px 1px #ffffff ;
-    border-bottom: 2px solid #b2b2b2 ;
-    background-color: #e4cab9;
-    text-align: center ;
-    justify-content: center ;
-    position: relative ;
-    float: left ;
-}
-
 input.submit:not(#search,#search, #back)
 {
     margin:0 50%;
