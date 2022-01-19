@@ -119,6 +119,8 @@ input.submit
     background-color: #e4cab9;
     text-align: center ;
     justify-content: center ;
+    position: relative ;
+    float: left ;
 }
 
 input.submit:not(#search,#search, #back)
@@ -145,10 +147,4 @@ input.submit:hover
 .closer a
 {
     padding: 3px ;
-}
-
-#back
-{
-    position: relative ;
-    float: left ;
 }
