@@ -1,0 +1,139 @@
+.header
+{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black ;
+}
+
+.main
+{
+    position: absolute ;
+}
+
+.SEI, .sSearch, .cSearch, .sStats, .sRemoval
+{
+    padding: 5px ;
+    margin: 10px ;  
+    float: left ;
+    width: 400px ;
+}
+
+
+#SEI, #sSearch, #cSearch, #sSearch, #sRemoval, #searchResults, #sStats
+{
+    border-radius: 5px ;
+    border-width: 3px ;
+    border-color: rgb(161, 37, 6) ;
+    border-style: solid;
+    padding: 10px ;
+}
+
+.sStats
+{
+    visibility: hidden ;
+}
+
+legend
+{
+    color:rgb(161, 37, 6) ;
+    font-weight: bold ;
+    padding: 5px 10px ;
+    border: 4px solid #dcdcdc ;
+    border-color: rgb(161, 37, 6) ;
+    border-radius: 10px ;
+    text-align: center ; 
+}
+
+.entries
+{
+    font-weight: bold ;
+}
+
+body
+{
+    font-family: "Courier New", Courier, Monospace ;
+    color: #000000e8 ;
+    background-color:rgb(241, 233, 221) ;
+    word-spacing: .2em;
+}
+
+table
+{
+    width: 1400px ;
+    height: 200px ;
+    border-spacing: collapse ;
+    margin: 10px ; 
+    overflow-y: scroll ;
+    display: block ;
+}
+
+th, td
+{
+    width: 1400px ;
+    padding: 7px 10px 10px 10px ;
+    empty-cells: hide ;
+    text-align: center ;
+}
+
+th
+{
+    text-transform: uppercase ;
+    letter-spacing: 0.1em ;
+    font-size: 90% ;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: center ;
+}
+
+tr.even
+{
+    background-color: rgb(202, 62, 27) ;
+}
+
+tr:hover 
+{
+    background-color: #c3e6e5;
+}
+
+a
+{
+    color: rgb(0, 60, 255) ;
+    text-decoration: underline ;
+}
+
+input.submit
+{
+    color: #444444 ;
+    text-shadow: 0px 1px 1px #ffffff ;
+    border-bottom: 2px solid #b2b2b2 ;
+    background-color: #e4cab9;
+    text-align: center ;
+    justify-content: center ;
+}
+
+input.submit:not(#search,#search, #back)
+{
+    margin:0 50%;
+    position:relative;
+    left:-50px;
+}
+
+input.submit:hover
+{
+    color: #333333 ;
+    border: 1px solid #a4a4a4 ;
+    border-top: 2px solid #b2b2b2 ;
+    background-color: #e4cab9 ;
+}
+
+.closer
+{
+    width: 350px ;
+}
+
+#back
+{
+    position: relative ;
+    float: left ;
+}
+
