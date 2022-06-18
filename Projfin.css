@@ -8,6 +8,7 @@
 .main
 {
     position: absolute ;
+    height: 100% ;
 }
 
 .SEI, .sSearch, .cSearch, .sStats, .sRemoval
@@ -126,6 +127,8 @@ input.submit:hover
 
 .closer
 {
+    position: absolute;
+    bottom: 0;
     width: 350px ;
 }
 
