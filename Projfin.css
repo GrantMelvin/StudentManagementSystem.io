@@ -59,12 +59,11 @@ body
 
 table
 {
-    width: 1400px ;
+    width: 100% ;
     height: 200px ;
     border-spacing: collapse ;
     margin: 10px ; 
     overflow-y: scroll ;
-    display: block ;
 }
 
 th, td
