@@ -1,5 +1,6 @@
 # StudentManagementSystem.io
 A student management system that uses HTML, CSS, and Javascript to Create, Delete, and Search user-entered students for academic purposes.
+https://grantmelvin.github.io/StudentManagementSystem.io/ 
 
 --------------------------------------------------------------------------
 
